@@ -9,6 +9,7 @@ This repository demonstrates a simple setup using:
 - Yarn
   - Plug'n'Play (PnP)
   - editor SDKs
+- Vitest
 
 ## Table of Contents
 
@@ -75,6 +76,12 @@ yarn build
 
 ```bash
 yarn start
+```
+
+- `test`: Execute tests with Vitest.
+
+```bash
+yarn test
 ```
 
 ## Contributing
