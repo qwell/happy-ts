@@ -79,7 +79,7 @@ yarn start
 
 ## Contributing
 
-If you'd like to contribute, pull request are highly appreciated.
+If you'd like to contribute, pull requests and issues are always appreciated.
 
 ## License
 
