@@ -1,7 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "@tsconfig/node20",
+  "extends": "@tsconfig/node20/tsconfig.json",
   "compilerOptions": {
+    "rootDir": "src/",
     "outDir": "dist/",
     "sourceMap": true,
     "declaration": true,
@@ -13,7 +14,8 @@
     "incremental": true,
     "strictNullChecks": true,
     "listEmittedFiles": true,
-    "tsBuildInfoFile": ".cache/.tsbuildinfo"
+    "tsBuildInfoFile": ".cache/.tsbuildinfo",
+    "types": ["vitest/importMeta"]
   },
   "compileOnSave": true,
   "plugins": [
@@ -21,5 +23,5 @@
       "name": "typescript-eslint-language-service"
     }
   ],
-  "include": ["**/*.ts"]
+  "include": ["src/**/*.ts"]
 }

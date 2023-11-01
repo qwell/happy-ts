@@ -20,7 +20,8 @@
     "clean": "rimraf dist/ .cache/",
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -w -p tsconfig.json",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "test": "vitest run"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.2",
@@ -36,6 +37,7 @@
     "prettier": "^3.0.3",
     "rimraf": "^5.0.5",
     "typescript": "^5.2.2",
-    "typescript-eslint-language-service": "^5.0.5"
+    "typescript-eslint-language-service": "^5.0.5",
+    "vitest": "^0.34.6"
   }
 }
