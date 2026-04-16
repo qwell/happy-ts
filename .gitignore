@@ -4,13 +4,16 @@
 # Transient node files
 **/node_modules/
 package-lock.json
+yarn.lock
+
 .yarn/*
-!.yarn/cache
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+.pnp.cjs
+.pnp.loader.mjs
 
 # Build output
 **/dist/
