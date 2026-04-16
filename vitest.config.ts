@@ -1,10 +1,8 @@
 import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
+  cacheDir: '.cache/vite',
   test: {
-    cache: {
-      dir: '.cache/vitest',
-    },
     includeSource: ['src/**/*.ts'],
   },
 });
